@@ -1,1 +1,7 @@
-export const App = () => <div>Working...</div>;
+import { StylesProvider } from 'providers/StylesProvider/StylesProvider';
+
+export const App = () => (
+  <StylesProvider>
+    <div>Working...</div>
+  </StylesProvider>
+);
